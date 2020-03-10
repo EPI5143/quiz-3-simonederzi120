@@ -57,5 +57,5 @@ ggplot(data = mpg) + geom_point(mapping = aes(x = displ, y = hwy, color=class, s
 ggplot(data = mpg) + geom_point(mapping = aes(x = displ, y = hwy, color=class, shape=drv, size=cyl))
 
 #Question 5
-ggplot(data = mpg, main=) + geom_point(mapping = aes(x = displ, y = hwy, color=class, shape=drv, size=cyl))+labs (title="Fuel efficiency")
+ggplot(data = mpg) + geom_point(mapping = aes(x = displ, y = hwy, color=class, shape=drv, size=cyl))+labs (title="Fuel efficiency and engine size")
 
