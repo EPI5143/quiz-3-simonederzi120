@@ -42,7 +42,15 @@ library (tidyverse)
 view(mpg) 
 nrow(mpg)
 ncol(mpg)  
-dim(mpg)  
+dim(mpg)
+
+#Results from the console window: 234 observations and 11 variables.
+#> nrow(mpg)
+#[1] 234
+#> ncol(mpg)  
+#[1] 11
+#> dim(mpg)  
+#[1] 234  11#
 
 ggplot(data = mpg) + geom_point(mapping = aes(x = displ, y = hwy))
 
