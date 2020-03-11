@@ -50,7 +50,7 @@ dim(mpg)
 #> ncol(mpg)  
 #[1] 11
 #> dim(mpg)  
-#[1] 234  11#
+#[1] 234  11
 
 ggplot(data = mpg) + geom_point(mapping = aes(x = displ, y = hwy))
 
